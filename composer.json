@@ -1,0 +1,38 @@
+{
+  "name": "takehome/invoice-api",
+  "description": "Invoice System REST API - PHP 7.4, Yii2 and MySQL 5.7",
+  "type": "project",
+  "require": {
+    "php": ">=7.4 <8.0",
+    "yiisoft/yii2": "~2.0.53"
+  },
+  "require-dev": {
+    "codeception/codeception": "^4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/codecept run unit --no-interaction",
+    "serve": "php yii serve --port=8080"
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}

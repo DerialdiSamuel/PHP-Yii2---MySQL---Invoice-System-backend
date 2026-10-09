@@ -1,0 +1,19 @@
+# Environment secrets
+/.env
+/.env.*
+!/.env.example
+
+# Composer dependencies
+/vendor/
+
+# Yii2 runtime and generated assets
+/runtime/
+/web/assets/
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db

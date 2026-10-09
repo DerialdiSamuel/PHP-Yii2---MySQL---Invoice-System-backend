@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/src/Yii.php';
+
+$config = require __DIR__ . '/config/console.php';
+$application = new yii\console\Application($config);
+$exitCode = $application->run();
+exit($exitCode);

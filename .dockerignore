@@ -1,0 +1,23 @@
+.git
+.gitignore
+.dockerignore
+.env
+.env.*
+!.env.example
+Dockerfile
+README.md
+ARCHITECTURE.md
+SCOPE.md
+docker-compose.yml
+postman/
+tests/
+runtime/*
+web/assets/*
+composer.lock
+vendor/
+
+# Local and editor files
+.vscode/
+.idea/
+*.log
+.DS_Store

@@ -1,0 +1,14 @@
+actor: UnitTester
+
+bootstrap: _bootstrap.php
+
+paths:
+  tests: tests
+  output: tests/_output
+  data: tests/_data
+  support: tests/_support
+  envs: tests/_envs
+
+settings:
+  colors: true
+  memory_limit: 1024M
